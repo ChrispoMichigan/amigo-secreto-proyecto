@@ -23,11 +23,34 @@ function agregarAmigo(){
 }
 
 function listaAmigos(amigos){
-    lista = elementoPorID('listaAmigos');
-    lista.innerHTML = "";
+    limpiarElemento('listaAmigos');
     for(let i = 0; i < amigos.length; i++){
-        let li = document.createElement("li");
-        li.textContent = amigos[i];
-        lista.appendChild(li);
+        addLi('listaAmigos', amigos[i]);
+    }
+}
+
+function limpiarElemento(id){
+    let elemento = elementoPorID(id);
+    elemento.innerHTML = "";
+}
+
+function addLi(id, text){
+    let lista = elementoPorID(id);
+    let li = document.createElement("li");
+    li.textContent = text;
+    lista.appendChild(li);
+}
+
+function elegirAmigo(){
+    let indiceAleatorio = Math.floor(Math.random() * nombresAmigos.length);
+    return nombresAmigos[indiceAleatorio]; 
+}
+
+function sortearAmigo(){
+    if(nombresAmigos.length > 1){
+        limpiarElemento('resultado');
+        addLi('resultado', elegirAmigo());
+    }else{
+        alert("Se necesitan por lo menos 2 amigos");
     }
 }
