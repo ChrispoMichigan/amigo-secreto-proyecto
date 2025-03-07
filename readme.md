@@ -11,11 +11,17 @@
 Al momento de acceder verás un input que al colocar cualquier nombre este te mostrara dinámicamente los nombres insertados y tiene la opción de entre todos esos nombres mostrar uno de estos al azar.
 <h2>¿Como usarlo?</h2>
 Puedes entrar a través de aquí
+<br>
+<a href="https://amigo-secreto-proyecto.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Visita%20la%20página-0000FF?style=for-the-badge&logo=web&logoColor=white" alt="Web Badge">
+</a>
 
-Cómo pueden comenzar los usuarios con el proyecto.
-Dónde pueden recibir ayuda los usuarios con tu proyecto
-Quién mantiene y contribuye con el proyecto
 
+
+<h2>Desarrollador</h2>
+<a href="www.linkedin.com/in/christian-israel-castillo-jiménez-32b77a281" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge">
+</a>
 
 
 
